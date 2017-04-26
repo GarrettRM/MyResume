@@ -1,0 +1,76 @@
+/* uses font awesome for social icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+html { 
+  background: url(http://amazingpict.com/wp-content/uploads/2015/06/cityscape-background-computer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 12pt;
+}
+
+.page-header{
+  text-align: center;    
+}
+
+.page-title{
+
+font-size: 40pt;
+color: seashell;
+} 
+
+.panel{
+
+  margin-bottom: 8%;
+}
+
+/* resume stuff */
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 10px 10px 10px 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4{
+    color: #d9534f;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+  border-radius:10%;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+  .resume-heading .social-btn-holder{
+    padding:5px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,18 @@
+    .navbar-brand-centered {
+        position: absolute;
+        left: 45%;
+        display: block;
+        width: 300px;
+        text-align: center;
+        background-color: transparent;
+        font-size: 29px;
+        
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+        
+    }
+
+
+
